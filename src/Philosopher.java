@@ -6,7 +6,7 @@ public class Philosopher {
 
     private final static int MIN_IDLE_TIME = 500;
     private final static int MAX_IDLE_TIME = 1000;
-    private static Random rand = new Random();
+    private static final Random rand = new Random();
 
     private Philosopher left;
     private Philosopher right;
